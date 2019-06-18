@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-export const Btn = styled.div `
-	border-radius: 13px;
-	font-size: 12px;
-	line-height: 25px;
-	box-sizing: border-box;
-	color: #7486FC;
-	border: 1px solid #7486FC;
-	padding: 0 11px;
-  min-width: 75px;
+export const Btn = styled.div`
+  border-radius: 26px;
+  font-size: 24px;
+  line-height: 50px;
+  box-sizing: border-box;
+  color: #7486fc;
+  border: 1px solid #7486fc;
+  padding: 0 22px;
+  min-width: 150px;
   text-align: center;
-  &.disabled{
+  &.disabled {
     color: #cfcfcf;
     border: 1px solid #cfcfcf;
   }
-`
+`;

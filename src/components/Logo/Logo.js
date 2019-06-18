@@ -1,13 +1,13 @@
-import React from 'react'
-import logoImg from '../../assets/logo.png'
-import styles from './index.less'
+import React from 'react';
+import logoImg from '../../assets/logo.png';
+import { LogoWrapper } from './style';
 
 const Logo = () => {
   return (
-    <div className={styles.logo_wrapper}>
-      <img src={logoImg} alt="logo"/>
-    </div>
-  )
-}
+    <LogoWrapper>
+      <img src={logoImg} alt="logo" />
+    </LogoWrapper>
+  );
+};
 
-export default Logo
+export default Logo;

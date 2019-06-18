@@ -14,7 +14,6 @@
     "tslint": "npm run tslint:fix",
     "tslint:fix": "tslint --fix 'src/**/*.ts*'",
     "lint-staged:js": "eslint --ext .js",
-    "precommit": "lint-staged",
     "prettier": "node ./scripts/prettier.js"
   },
   "dependencies": {
@@ -28,7 +27,8 @@
     "nprogress": "^0.2.0",
     "prop-types": "^15.5.10",
     "qs": "^6.5.2",
-    "react": "^16.5.1"
+    "react": "^16.5.1",
+    "styled-px2rem": "^1.0.2"
   },
   "optionalDependencies": {
     "puppeteer": "^1.9.0"
@@ -79,10 +79,6 @@
     "src/**/*.less",
     "config/**/*.js*",
     "scripts/**/*.js"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
-  }
+  ]
+
 }
