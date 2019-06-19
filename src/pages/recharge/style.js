@@ -10,6 +10,7 @@ export const Container = styled.div`
   position: relative;
   box-sizing: border-box;
   overflow: auto;
+  overflow-x: hidden;
 `;
 
 export const AddCard = styled.div`
@@ -62,7 +63,7 @@ export const SelectTicket = styled.div`
   padding: 40px;
   box-shadow: ${props => props.shadow};
   position: relative;
-  margin-top: -20px;
+  /* margin-top: -20px; */
   background: #fff;
   .title {
     color: #999;
@@ -130,6 +131,7 @@ export const CarouselWrap = styled.div`
     margin: 0 !important;
     margin-block-start: 0;
     margin-block-end: 0;
+    text-align: center;
   }
   .slider-slide > img {
     height: 300px;
@@ -273,7 +275,7 @@ export const HeadBanner = styled.div`
   background-size: cover;
   .content {
     width: 710px;
-    height: 115px;
+    height: 230px;
     box-sizing: border-box;
     padding: 0 20px;
     border-radius: 8px;

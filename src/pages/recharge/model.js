@@ -31,7 +31,12 @@ export default {
         yield put({
           type: 'getGetagoryData',
           payload: {
-            cateList: data,
+            card_list: [
+              {
+                thumb: bankImage,
+                id: 1,
+              },
+            ],
           },
         });
       }
@@ -42,6 +47,7 @@ export default {
   },
   reducers: {
     getGetagoryData(state, { payload }) {
+      console.log(payload, 'payload');
       return {
         ...state,
         ...payload,

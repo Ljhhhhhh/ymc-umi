@@ -12,8 +12,8 @@ export default [
       { path: '/home', component: './home', title: '首页' },
       { path: '/notice', component: './notice', title: '公告' },
       { path: '/recharge', component: './recharge/recharge', title: '充值' },
-      // { path: '/recharge/coupon', component: './recharge/coupon', title: '充值' },
-      // { path: '/recharge/telphone', component: './recharge/telphone', title: '充值' },
+      { path: '/recharge/coupon', component: './recharge/coupon', title: '充值' },
+      { path: '/recharge/telphone', component: './recharge/telphone', title: '充值' },
       // { path: '/recharge/tel-coupon', component: './recharge/tel-coupon', title: '充值' },
       {
         path: '/exception',

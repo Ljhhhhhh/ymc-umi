@@ -58,6 +58,7 @@ const Recharge = props => {
 const CreateCard = ({ dispatch }) => {
   const HandleCreate = () => {
     console.log(123);
+
     dispatch({
       type: 'recharge/GetCategorysList',
     });

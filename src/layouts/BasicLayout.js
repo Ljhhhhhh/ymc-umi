@@ -1,6 +1,6 @@
 /*
- * @Author: Jan-superman 
- * @Date: 2018-09-27 20:38:14 
+ * @Author: Jan-superman
+ * @Date: 2018-09-27 20:38:14
  * @Last Modified by: superman
  * @Last Modified time: 2019-02-01 16:58:15
  */
@@ -15,7 +15,7 @@ import '@/layouts/nprogress.less';
 NProgress.configure({ showSpinner: false });
 
 // 底部有bar菜单
-const BarRoutes = ['/shop', '/', '/me', '/category'];
+const BarRoutes = ['/home', '/', '/me', '/category'];
 let currHref = '';
 
 class BasicLayout extends PureComponent {

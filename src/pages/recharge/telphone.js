@@ -67,7 +67,7 @@ const Telphone = props => {
       <HeadBanner>
         <div className="content">
           <InputItem {...getFieldProps('mobile')} placeholder="请输入手机号" type="phone">
-            <PngIcon icon="mobile" width="16px" height="18px" />
+            <PngIcon icon="mobile" width="32px" height="36px" />
           </InputItem>
           <Tabs.DefaultTabBar
             tabs={tabs}
@@ -119,9 +119,9 @@ const Combo = props => {
       <div className="pre-recharge">
         <div className="label">每月充值金额(元)</div>
         <div className="set-val">
-          <PngIcon width="23px" height="23px" icon="minus" handleClick={() => changeVal(-100)} />
+          <PngIcon width="46px" height="46px" icon="minus" handleClick={() => changeVal(-100)} />
           <div className="val">{preCharge}</div>
-          <PngIcon width="23px" height="23px" icon="plus" handleClick={() => changeVal(100)} />
+          <PngIcon width="46px" height="46px" icon="plus" handleClick={() => changeVal(100)} />
         </div>
       </div>
       <div
