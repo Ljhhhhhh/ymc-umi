@@ -120,7 +120,7 @@ const NotiveContent = () => {
       >
         {list.map(item => (
           <Link to={item.path} key={item.path}>
-            <NoticeBar icon={<PngIcon width="16px" height="16px" icon={item.icon} />}>
+            <NoticeBar icon={<PngIcon width="32px" height="32px" icon={item.icon} />}>
               {item.content} [{item.time}]
             </NoticeBar>
           </Link>

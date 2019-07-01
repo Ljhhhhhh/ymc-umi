@@ -58,7 +58,7 @@ const Telphone = props => {
         icon={<GoBack color="#333" />}
         rightContent={
           <Link to="/home">
-            <PngIcon icon="question" width="20px" height="20px" />
+            <PngIcon icon="question" width="40px" height="40px" />
           </Link>
         }
       >
